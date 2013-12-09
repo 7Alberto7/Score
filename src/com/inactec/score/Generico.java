@@ -28,7 +28,7 @@ public class Generico extends Activity {
         
         //getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // If your minSdkVersion is 11 or higher, instead use:
-        getActionBar().setDisplayHomeAsUpEnabled(true);
+        //getActionBar().setDisplayHomeAsUpEnabled(true);
         btAdd = (Button) findViewById(R.id.btAgregar);
         lvDatos = (ListView) findViewById(R.id.lvDatos);
         etDatos = (EditText) findViewById(R.id.etDatos);

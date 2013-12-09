@@ -19,12 +19,14 @@
     <string name="introduce_jugador">Introduce el jugador</string>
     <string name="signo_menos">-</string>
     <string name="signo_mas">+</string>
-    <string name="opciones">Opciones</string>
- 
-    <string-array name="opciones_jugador">
-        <item>Borrar</item>
-        <item>Otra</item>
-    </string-array>
-    
+    <string name="nosotros">Inactec está formado por un grupo de ingenieros 
+        especializados en el desarrollo web y el área de movilidad.\n\n
+        Nuestra función principal es la de aprender y desarrollar las tecnologías más 
+        modernas en el desarrollo web y móvil. Realizamos proyectos propios y por cuenta ajena.\n\n
+        Para más info, visítanos en inactec.com.
+        </string>
+    <string name="title_activity_nosotros">Nosotros</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

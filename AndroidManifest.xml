@@ -23,19 +23,24 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity 
-            android:name="com.inactec.score.Generico" 
-            android:label="@string/titulo_generico" 
-            android:theme="@style/AppTheme"
-      		android:screenOrientation="portrait">
+        <activity
+            android:name="com.inactec.score.Generico"
+            android:label="@string/titulo_generico"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
         </activity>
-        <activity 
-            android:name="com.inactec.score.GenericoAjustes" 
-            android:label="@string/ajustes" 
-            android:theme="@style/AppTheme"
-      		android:screenOrientation="portrait">
+        <activity
+            android:name="com.inactec.score.GenericoAjustes"
+            android:label="@string/ajustes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
         </activity>
-        
+        <activity
+            android:name="com.inactec.score.Nosotros"
+            android:label="@string/title_activity_nosotros"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
     </application>
 
 </manifest>

@@ -41,6 +41,8 @@ public class Principal extends Activity {
 			public void onClick(View v) {
 			}
 		});
+        
+        btnTutorial.setVisibility(View.INVISIBLE);
 
         Button btnNosotros = (Button) findViewById(R.id.btn_nosotros);
         
@@ -48,19 +50,26 @@ public class Principal extends Activity {
 			
 			@Override
 			public void onClick(View v) {
+				cargarNosotros();
 			}
 		});
 	}
 
-	@Override
+	/*@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.principal, menu);
 		return true;
-	}
+	}*/
 	
 	public void cargarMarcadorGenerico(){
 		Intent i= new Intent(this, Generico.class);
+		
+		startActivity(i);
+	}
+	
+	public void cargarNosotros(){
+		Intent i= new Intent(this, Nosotros.class);
 		
 		startActivity(i);
 	}
