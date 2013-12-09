@@ -81,18 +81,6 @@ public class ListViewGenerico extends ArrayAdapter<Puntuacion> {
 			}
 		});
 
-		Button btnBorrar = (Button) view.findViewById(R.id.btn_borrar);
-
-		btnBorrar.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				listaJugadores.eliminarPuntuacion(listaJugadores.obtenerPuntuacion(posicion));
-				notifyDataSetChanged();
-				
-			}
-		});
-
 		return view;
 	}
 

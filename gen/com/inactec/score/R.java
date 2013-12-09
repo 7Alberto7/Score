@@ -51,12 +51,11 @@ public final class R {
     public static final class id {
         public static final int btAgregar=0x7f0a0007;
         public static final int btn_aceptar=0x7f0a0005;
-        public static final int btn_borrar=0x7f0a000e;
         public static final int btn_generico=0x7f0a000a;
         public static final int btn_monetario=0x7f0a000b;
         public static final int btn_nosotros=0x7f0a000d;
-        public static final int btn_restar=0x7f0a0010;
-        public static final int btn_sumar=0x7f0a0012;
+        public static final int btn_restar=0x7f0a000f;
+        public static final int btn_sumar=0x7f0a0011;
         public static final int btn_tutorial=0x7f0a000c;
         public static final int edit_puntos_a_restar=0x7f0a0002;
         public static final int edit_puntos_a_sumar=0x7f0a0001;
@@ -66,9 +65,9 @@ public final class R {
         public static final int etDatos=0x7f0a0006;
         public static final int linearLayout1=0x7f0a0009;
         public static final int lvDatos=0x7f0a0008;
-        public static final int menu_ajustes=0x7f0a0013;
-        public static final int participante=0x7f0a000f;
-        public static final int puntos=0x7f0a0011;
+        public static final int menu_ajustes=0x7f0a0012;
+        public static final int participante=0x7f0a000e;
+        public static final int puntos=0x7f0a0010;
     }
     public static final class layout {
         public static final int activity_ajustes_generico=0x7f030000;
