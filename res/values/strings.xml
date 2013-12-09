@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Score</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="editar">Editar</string>
+    <string name="titulo_generico">Genérico</string>
+    <string name="titulo_monetario">Monetario</string>
+    <string name="titulo_tutorial">Tutorial</string>
+    <string name="titulo_nosotros">Nosotros</string>
+    <string name="desarrollador">Desarrollado por Inactec</string>
+    <string name="puntos_por_defecto">Puntos por Defecto</string>
+    <string name="puntos_a_sumar">Puntos a Sumar</string>
+    <string name="puntos_a_restar">Puntos a Restar</string>
+    <string name="puntos_max">Máxima Puntuación</string>
+    <string name="puntos_min">Mínima Puntuación</string>
+    <string name="aplicar_cambios">Aplicar Cambios</string>
+    <string name="agregar_jugador">Agregar</string>
+    <string name="introduce_jugador">Introduce el jugador</string>
+    <string name="signo_menos">-</string>
+    <string name="signo_mas">+</string>
+    <string name="opciones">Opciones</string>
+ 
+    <string-array name="opciones_jugador">
+        <item>Borrar</item>
+        <item>Otra</item>
+    </string-array>
+    
+
+</resources>

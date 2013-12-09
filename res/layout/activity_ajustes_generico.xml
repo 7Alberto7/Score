@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/gris_claro" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    android:layout_marginTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical">
+    
+	   <LinearLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical" >
+	       <TextView
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:text="@string/puntos_por_defecto"
+		   	android:textColor="@color/negro"/>
+	       <EditText
+	       	android:id="@+id/edit_puntos_por_defecto"
+	   		android:layout_width="match_parent"
+	   		android:layout_height="match_parent" 
+	       	android:inputType="numberDecimal"
+	   		android:textColor="@color/negro" />
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical" >
+	       <TextView
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:text="@string/puntos_a_sumar"
+		   	android:textColor="@color/negro"/>
+	       <EditText
+	       	android:id="@+id/edit_puntos_a_sumar"
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent" 
+	       	android:inputType="numberDecimal"
+		   	android:textColor="@color/negro" />
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical" >
+	       <TextView
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:text="@string/puntos_a_restar"
+		   	android:textColor="@color/negro"/>
+	       <EditText
+	       	android:id="@+id/edit_puntos_a_restar"
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent" 
+	       	android:inputType="numberDecimal"
+		   	android:textColor="@color/negro" />
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical" >
+	       <TextView
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:text="@string/puntos_max"
+		   	android:textColor="@color/negro"/>
+	       <EditText
+	       	android:id="@+id/edit_puntos_max"
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent" 
+	       	android:inputType="numberDecimal"
+		   	android:textColor="@color/negro" />
+	       
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:orientation="vertical" >
+	       <TextView
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent"
+		   	android:text="@string/puntos_min"
+		   	android:textColor="@color/negro"/>
+	       <EditText
+	       	android:id="@+id/edit_puntos_min"
+		   	android:layout_width="match_parent"
+		   	android:layout_height="match_parent" 
+		    android:inputType="numberDecimal"
+		   	android:textColor="@color/negro" />
+	       
+	   </LinearLayout>
+	   
+	   <LinearLayout
+	   android:layout_width="match_parent"
+	   android:layout_height="wrap_content"
+	   android:layout_marginBottom="@dimen/activity_vertical_margin"
+	   android:layout_marginLeft="@dimen/activity_horizontal_margin"
+	   android:layout_marginRight="@dimen/activity_horizontal_margin"
+	   android:layout_marginTop="@dimen/activity_vertical_margin"
+	   android:orientation="vertical" >
+	
+	       <Button
+           android:id="@+id/btn_aceptar"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:background="@drawable/shapes"
+           android:text="@string/aplicar_cambios"
+           android:textColor="@color/blanco" />
+	       
+	   </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
