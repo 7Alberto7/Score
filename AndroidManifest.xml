@@ -10,7 +10,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/score_icon"
+        android:icon="@drawable/score_icon_blue"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
