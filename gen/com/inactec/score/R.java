@@ -75,22 +75,24 @@ public final class R {
         public static final int activity_generico=0x7f030001;
         public static final int activity_nosotros=0x7f030002;
         public static final int activity_principal=0x7f030003;
-        public static final int elemento_lista_generico=0x7f030004;
+        public static final int activity_tutorial=0x7f030004;
+        public static final int elemento_lista_generico=0x7f030005;
     }
     public static final class menu {
         public static final int menu_generico=0x7f080000;
         public static final int nosotros=0x7f080001;
         public static final int principal=0x7f080002;
+        public static final int tutorial=0x7f080003;
     }
     public static final class string {
-        public static final int action_settings=0x7f060014;
+        public static final int action_settings=0x7f060015;
         public static final int agregar_jugador=0x7f06000e;
         public static final int ajustes=0x7f060001;
         public static final int aplicar_cambios=0x7f06000d;
         public static final int app_name=0x7f060000;
         public static final int desarrollador=0x7f060007;
         public static final int editar=0x7f060002;
-        public static final int hello_world=0x7f060015;
+        public static final int hello_world=0x7f060016;
         public static final int introduce_jugador=0x7f06000f;
         public static final int nosotros=0x7f060012;
         public static final int puntos_a_restar=0x7f06000a;
@@ -100,11 +102,13 @@ public final class R {
         public static final int puntos_por_defecto=0x7f060008;
         public static final int signo_mas=0x7f060011;
         public static final int signo_menos=0x7f060010;
-        public static final int title_activity_nosotros=0x7f060013;
+        public static final int title_activity_nosotros=0x7f060014;
+        public static final int title_activity_tutorial=0x7f060017;
         public static final int titulo_generico=0x7f060003;
         public static final int titulo_monetario=0x7f060004;
         public static final int titulo_nosotros=0x7f060006;
         public static final int titulo_tutorial=0x7f060005;
+        public static final int tutorial=0x7f060013;
     }
     public static final class style {
         /** 

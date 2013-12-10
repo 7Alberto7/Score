@@ -39,10 +39,9 @@ public class Principal extends Activity {
 			
 			@Override
 			public void onClick(View v) {
+				cargarTutorial();
 			}
 		});
-        
-        btnTutorial.setVisibility(View.INVISIBLE);
 
         Button btnNosotros = (Button) findViewById(R.id.btn_nosotros);
         
@@ -70,6 +69,12 @@ public class Principal extends Activity {
 	
 	public void cargarNosotros(){
 		Intent i= new Intent(this, Nosotros.class);
+		
+		startActivity(i);
+	}
+	
+	public void cargarTutorial(){
+		Intent i= new Intent(this, Tutorial.class);
 		
 		startActivity(i);
 	}
