@@ -47,6 +47,14 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
+        <activity
+            android:name="com.inactec.score.Monetario"
+            android:label="@string/title_activity_monetario" >
+        </activity>
+        <activity
+            android:name="com.inactec.score.MonetarioAjustes"
+            android:label="@string/ajustes" >
+        </activity>
     </application>
 
 </manifest>

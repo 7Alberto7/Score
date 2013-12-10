@@ -30,6 +30,7 @@ public class Principal extends Activity {
 			
 			@Override
 			public void onClick(View v) {
+				cargarMarcadorMonetario();
 			}
 		});
 
@@ -63,6 +64,12 @@ public class Principal extends Activity {
 	
 	public void cargarMarcadorGenerico(){
 		Intent i= new Intent(this, Generico.class);
+		
+		startActivity(i);
+	}
+	
+	public void cargarMarcadorMonetario(){
+		Intent i= new Intent(this, Monetario.class);
 		
 		startActivity(i);
 	}

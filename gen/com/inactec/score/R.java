@@ -72,17 +72,22 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_ajustes_generico=0x7f030000;
-        public static final int activity_generico=0x7f030001;
-        public static final int activity_nosotros=0x7f030002;
-        public static final int activity_principal=0x7f030003;
-        public static final int activity_tutorial=0x7f030004;
-        public static final int elemento_lista_generico=0x7f030005;
+        public static final int activity_ajustes_monetario=0x7f030001;
+        public static final int activity_generico=0x7f030002;
+        public static final int activity_monetario=0x7f030003;
+        public static final int activity_nosotros=0x7f030004;
+        public static final int activity_principal=0x7f030005;
+        public static final int activity_tutorial=0x7f030006;
+        public static final int elemento_lista_generico=0x7f030007;
+        public static final int elemento_lista_monetario=0x7f030008;
     }
     public static final class menu {
         public static final int menu_generico=0x7f080000;
-        public static final int nosotros=0x7f080001;
-        public static final int principal=0x7f080002;
-        public static final int tutorial=0x7f080003;
+        public static final int monetario=0x7f080001;
+        public static final int monetario_ajustes=0x7f080002;
+        public static final int nosotros=0x7f080003;
+        public static final int principal=0x7f080004;
+        public static final int tutorial=0x7f080005;
     }
     public static final class string {
         public static final int action_settings=0x7f060015;
@@ -102,6 +107,8 @@ public final class R {
         public static final int puntos_por_defecto=0x7f060008;
         public static final int signo_mas=0x7f060011;
         public static final int signo_menos=0x7f060010;
+        public static final int title_activity_monetario=0x7f060018;
+        public static final int title_activity_monetario_ajustes=0x7f060019;
         public static final int title_activity_nosotros=0x7f060014;
         public static final int title_activity_tutorial=0x7f060017;
         public static final int titulo_generico=0x7f060003;
